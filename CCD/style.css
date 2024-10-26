@@ -1,0 +1,123 @@
+/* Estilo general */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 20px;
+  padding: 0;
+}
+
+h1,
+h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* 1. Margen Automático */
+.margin-auto {
+  width: 50%; /* Ancho fijo o porcentual */
+  margin: 0 auto; /* Margen automático para centrar horizontalmente */
+  background-color: lightblue;
+  padding: 20px;
+  text-align: center;
+}
+
+/* 2. Flexbox (Horizontal y Vertical) */
+.flex-container {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  height: 200px; /* Altura del contenedor */
+  background-color: #f0f0f0;
+  margin-bottom: 20px;
+}
+
+/* 3. Grid (Horizontal y Vertical) */
+.grid-container {
+  display: grid;
+  place-items: center; /* Centra en ambas direcciones */
+  height: 200px;
+  background-color: #e0f7fa;
+  margin-bottom: 20px;
+}
+
+/* 4. Posicionamiento Absoluto con Transform */
+.relative-container {
+  position: relative;
+  height: 200px;
+  background-color: #ffe0b2;
+  margin-bottom: 20px;
+}
+
+.absolute-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffcc80;
+  padding: 20px;
+  text-align: center;
+}
+
+/* 5. Posicionamiento Absoluto con Margin Auto */
+.absolute-center-auto {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 50%; /* Ancho fijo */
+  height: 100px; /* Alto fijo */
+  background-color: #ffab91;
+  text-align: center;
+}
+
+/* 6. Text-Align para Centrar un Div Inline-Block */
+.text-center-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.inline-block-center {
+  display: inline-block;
+  width: 50%; /* Ancho fijo */
+  background-color: lightgreen;
+  padding: 20px;
+}
+
+/* 7. Centrando Verticalmente con Line-Height */
+.vertical-center-text {
+  height: 100px;
+  line-height: 100px; /* Igual a la altura */
+  background-color: #b39ddb;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* 8. CSS Table para Centrar Horizontal y Verticalmente */
+.table-container {
+  display: table;
+  width: 100%;
+  height: 200px;
+  background-color: #bbdefb;
+  margin-bottom: 20px;
+}
+
+.table-cell {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* 9. Flex y Fit-Content para Centrado Horizontal */
+.flex-horizontal {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  margin-bottom: 20px;
+}
+
+.fit-content-div {
+  width: fit-content; /* Ancho basado en el contenido */
+  padding: 20px;
+  background-color: #ffcdd2;
+}
