@@ -1,0 +1,56 @@
+/* Estilo general */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 20px;
+  padding: 0;
+}
+
+h1,
+h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Estilo base para las cajas */
+.box {
+  background-color: lightblue;
+  color: #333;
+  width: 200px; /* Ancho fijo para visualización */
+  height: 100px; /* Alto fijo para visualización */
+  text-align: center;
+  line-height: 100px; /* Centrado vertical */
+  margin-bottom: 20px; /* Espacio entre ejemplos */
+}
+
+/* 1. Solo Contenido */
+.content-only {
+  /* Sin padding, border o margin */
+  background-color: lightcoral;
+}
+
+/* 2. Contenido con Padding */
+.with-padding {
+  padding: 20px; /* Espacio interno entre el contenido y el borde */
+  background-color: lightgreen;
+}
+
+/* 3. Contenido con Borde */
+.with-border {
+  border: 5px solid black; /* Añadiendo un borde alrededor */
+  background-color: lightgoldenrodyellow;
+}
+
+/* 4. Contenido con Margen */
+.with-margin {
+  margin: 20px; /* Espacio externo alrededor de la caja */
+  background-color: lightpink;
+}
+
+/* 5. Box Model Completo: Contenido, Padding, Borde y Margen */
+.full-box-model {
+  padding: 15px; /* Espacio interno */
+  border: 4px solid navy; /* Borde */
+  margin: 20px; /* Espacio externo */
+  background-color: lightseagreen;
+}
