@@ -28,6 +28,11 @@ a[target="_blank"] {
   text-decoration: none;
 }
 
+input[type="text"] {
+  color: red;
+  text-decoration: none;
+}
+
 /* Selector descendente: Aplica a todos los párrafos dentro de un contenedor con clase .container */
 .container p {
   color: darkorange;

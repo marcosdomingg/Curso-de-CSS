@@ -1,0 +1,67 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    padding: 0;
+}
+
+h1, h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.box {
+    background-color: lightblue;
+    color: #333;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+/* Unidades Relativas */
+
+/* Porcentaje */
+.percent {
+    width: 50%; /* 50% del contenedor. Ideal para diseños responsivos que se ajustan al tamaño del contenedor */
+}
+
+/* em */
+.em {
+    width: 20em; /* Basado en el tamaño de fuente del contenedor. Útil para escalas proporcionales */
+}
+
+/* rem */
+.rem {
+    width: 10rem; /* Basado en el tamaño de fuente raíz del documento. Asegura consistencia global */
+}
+
+/* vw */
+.vw {
+    width: 50vw; /* 50% del ancho del viewport. Perfecto para ajustar elementos al tamaño de la pantalla */
+}
+
+/* vh */
+.vh {
+    height: 30vh; /* 30% de la altura del viewport. Ideal para secciones de altura relativa a la ventana */
+    line-height: normal; /* Ajuste para ver el efecto de altura */
+}
+
+/* Unidades Absolutas */
+
+/* px */
+.px {
+    width: 300px; /* Ancho fijo en píxeles. Útil para elementos que requieren precisión */
+}
+
+/* cm */
+.cm {
+    width: 5cm; /* Ancho de 5 centímetros. Mejor para medios impresos donde se necesita precisión física */
+}
+
+/* in */
+.in {
+    width: 2in; /* Ancho de 2 pulgadas. Común en impresión para medidas exactas */
+}
