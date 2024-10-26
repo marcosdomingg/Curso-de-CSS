@@ -1,0 +1,32 @@
+/* Definición de variables CSS en :root */
+:root {
+    --main-color: lightcoral;
+    --secondary-color: lightblue;
+    --padding-size: 10px;
+}
+
+/* Ejemplo de media query */
+.responsive-box {
+    width: 100%;
+    height: 100px;
+    background-color: lightgreen;
+    text-align: center;
+    margin: 10px 0;
+}
+
+/* Media query para pantallas mayores a 768px */
+@media (min-width: 768px) {
+    .responsive-box {
+        width: 50%; /* Cambia el ancho para pantallas más grandes */
+        background-color: lightblue;
+    }
+}
+
+/* Ejemplo de uso de variables CSS */
+.variable-box {
+    background-color: var(--main-color);
+    color: white;
+    padding: var(--padding-size);
+    margin: 10px;
+    text-align: center;
+}

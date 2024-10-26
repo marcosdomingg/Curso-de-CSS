@@ -1,0 +1,15 @@
+/* Ejemplo de display: flex */
+.flex-container {
+    display: flex;
+    justify-content: space-around; /* Distribuye espacio alrededor de los elementos */
+    align-items: center; /* Alinea elementos verticalmente en el centro */
+    height: 200px;
+    background-color: lightcoral;
+    margin: 10px 0;
+}
+
+.flex-item {
+    background-color: lightyellow;
+    padding: 20px;
+    text-align: center;
+}
