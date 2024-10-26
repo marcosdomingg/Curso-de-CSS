@@ -1,0 +1,66 @@
+/* Selector de etiqueta: Aplica a todos los elementos <h1> */
+h1 {
+  color: blue;
+  font-size: 24px;
+}
+
+/* Selector de clase: Aplica a cualquier elemento con la clase .highlight */
+.highlight {
+  color: green;
+  font-weight: bold;
+}
+
+/* Selector de ID: Aplica solo al elemento con ID #unique */
+#unique {
+  background-color: yellow;
+  padding: 10px;
+}
+
+/* Selector universal: Aplica a todos los elementos */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Selector de atributo: Aplica a todos los enlaces que tienen el atributo target con valor "_blank" */
+a[target="_blank"] {
+  color: red;
+  text-decoration: none;
+}
+
+/* Selector descendente: Aplica a todos los párrafos dentro de un contenedor con clase .container */
+.container p {
+  color: darkorange;
+  font-style: italic;
+}
+
+/* Selector de hijo directo: Aplica solo a los <li> que son hijos directos de <ul> */
+ul > li {
+  list-style-type: square;
+  margin-left: 20px;
+}
+
+/* Selector de adyacente: Aplica al párrafo que sigue inmediatamente después de un <h2> */
+h2 + p {
+  color: purple;
+  font-size: 18px;
+}
+
+/* Selector de hermanos generales: Aplica a todos los <p> que son hermanos de <h3> */
+h3 ~ p {
+  color: brown;
+  font-style: italic;
+}
+
+/* Pseudoclase :hover: Aplica estilos cuando el botón es interactuado con el mouse */
+.btn-hover:hover {
+  background-color: lightblue;
+  cursor: pointer;
+}
+
+/* Pseudoelemento ::before: Inserta contenido antes de un elemento <p> con clase .before-text */
+.before-text::before {
+  content: "⚠️ ";
+  color: red;
+  font-weight: bold;
+}
