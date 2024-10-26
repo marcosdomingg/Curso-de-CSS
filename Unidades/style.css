@@ -1,0 +1,94 @@
+/* Estilo general */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 20px;
+  padding: 0;
+}
+
+h1,
+h2 {
+  color: #333;
+}
+
+/* Unidades Relativas */
+
+/* Porcentaje */
+.relative-container {
+  width: 100%; /* Ancho total del contenedor */
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+.percent-box {
+  width: 80%; /* Ancho relativo al contenedor */
+  background-color: lightblue;
+  padding: 10px;
+  text-align: center;
+  margin: 10px auto;
+}
+
+/* em */
+.em-text {
+  font-size: 1.5em; /* Tamaño de fuente 1.5 veces el tamaño base del contenedor */
+  margin-bottom: 2em; /* Margen basado en el tamaño de fuente del contenedor */
+}
+
+/* rem */
+.rem-title {
+  font-size: 2rem; /* Tamaño de fuente basado en el tamaño de fuente raíz (html) */
+  color: #0077b6;
+}
+
+/* vw */
+.vw-box {
+  width: 50vw; /* Ancho del 50% del viewport */
+  background-color: #90e0ef;
+  padding: 10px;
+  text-align: center;
+  margin: 10px 0;
+}
+
+/* vh */
+.vh-box {
+  height: 30vh; /* Alto del 30% del viewport */
+  background-color: #00b4d8;
+  padding: 10px;
+  text-align: center;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Unidades Absolutas */
+
+/* px */
+.px-box {
+  width: 300px;
+  height: 150px;
+  background-color: #ade8f4;
+  padding: 10px;
+  text-align: center;
+  margin: 10px 0;
+}
+
+/* cm */
+.cm-box {
+  width: 5cm;
+  height: 3cm;
+  background-color: #caf0f8;
+  padding: 10px;
+  text-align: center;
+  margin: 10px 0;
+}
+
+/* in */
+.in-box {
+  width: 2in;
+  height: 1in;
+  background-color: #a0c4ff;
+  padding: 10px;
+  text-align: center;
+  margin: 10px 0;
+}
