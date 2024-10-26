@@ -1,0 +1,20 @@
+/* Ejemplo de display: block */
+.block-element {
+    display: block;
+    width: 100%;
+    background-color: lightblue;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* Ejemplo de display: inline-block */
+.inline-block-element {
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    background-color: lightgreen;
+    margin: 5px;
+    text-align: center;
+    vertical-align: middle;
+}
